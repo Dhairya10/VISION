@@ -1,0 +1,19 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateVision($text: String, $date_time: AWSDateTime) {
+  onCreateVision(text: $text, date_time: $date_time) {
+    text
+    date_time
+  }
+}
+subscription OnUpdateVision($text: String, $date_time: AWSDateTime) {
+  onUpdateVision(text: $text, date_time: $date_time) {
+    text
+    date_time
+  }
+}
+subscription OnDeleteVision($text: String, $date_time: AWSDateTime) {
+  onDeleteVision(text: $text, date_time: $date_time) {
+    text
+    date_time
+  }
+}

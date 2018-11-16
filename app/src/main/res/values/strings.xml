@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vision</string>
+    <string name="rekognition_heading">Detected Text with Confidence Percentage</string>
+    <string name="select_image">Select Image</string>
+    <string name="text_identify">Unable to identify any text</string>
+    <string name="text_to_speech_translation">Text to Speech translation .... </string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="select_image_processing">Select an image for processing</string>
+    <string name="change_voice_assistant">Change Voice Assistant</string>
+    <string name="view_history">View History</string>
+    <string-array name="voices_array">
+        <item> Select a voice assistant </item>
+        <item>Kendra     (US English)</item>
+        <item>Aditi      (Indian English)</item>
+        <item>Amy        (British English)</item>
+        <item>Miguel     (US Spanish)</item>
+        <item>Zhiyu      (Chinese Mandarin)</item>
+        <item>Takumi     (Japanese)</item>
+        <item>Mathieu    (French)</item>
+        <item>Giorgio    (Italian)</item>
+        <item>Maxim      (Russian)</item>
+        <item>Cristiano  (Portuguese)</item>
+    </string-array>
+</resources>

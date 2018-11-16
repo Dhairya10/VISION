@@ -1,0 +1,20 @@
+# this is an auto generated file. This will be overwritten
+query GetVision($text: String!) {
+  getVision(text: $text) {
+    text
+    date_time
+  }
+}
+query ListVisions(
+  $filter: TableVisionFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listVisions(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      text
+      date_time
+    }
+    nextToken
+  }
+}

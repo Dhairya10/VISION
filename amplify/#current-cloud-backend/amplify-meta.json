@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "visionmaster-20181114212149-authRole",
+            "UnauthRoleArn": "arn:aws:iam::256300598600:role/visionmaster-20181114212149-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::256300598600:role/visionmaster-20181114212149-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "visionmaster-20181114212149-deployment",
+            "UnauthRoleName": "visionmaster-20181114212149-unauthRole",
+            "StackName": "visionmaster-20181114212149",
+            "StackId": "arn:aws:cloudformation:us-east-1:256300598600:stack/visionmaster-20181114212149/3440dc20-e825-11e8-bb05-50fae583dcd2"
+        }
+    }
+}
