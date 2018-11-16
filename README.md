@@ -31,3 +31,8 @@ The results of these requests are gathered and what the user sees and hears as a
 IMPORTANT NOTE - 
 
 The Amazon Translate API can translate the text for only 6 languages currently — Arabic (ar) , Chinese (zh) ,French (fr) , German (de) , Portuguese (pt) and Spanish (es) .
+
+VIDEO LINK - 
+
+https://www.youtube.com/watch?v=0qzGkjEl7FY&frags=pl%2Cwn
+
