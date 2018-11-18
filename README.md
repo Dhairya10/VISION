@@ -30,7 +30,9 @@ The results of these requests are gathered and what the user sees and hears as a
 
 IMPORTANT NOTE - 
 
-The Amazon Translate API can translate the text for only 6 languages currently — Arabic (ar) , Chinese (zh) ,French (fr) , German (de) , Portuguese (pt) and Spanish (es) .
+* The Amazon Translate API can translate the text for only 6 languages currently — Arabic (ar) , Chinese (zh) ,French (fr) ,     German (de) , Portuguese (pt) and Spanish (es) .
+* AWS Rekognition can detect upto 50 words at a time from an image.
+
 
 VIDEO LINK - 
 
