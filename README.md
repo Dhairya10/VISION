@@ -12,7 +12,7 @@ USEFULNESS -
 
 TECHNOLOGIES USED - 
 
-Amazon Web Services(AWS)  - It provides the APIs which are integrated with the Android application for providing state of the art machine learning capabilities.This project uses three AWS Ml APIs.
+Amazon Web Services(AWS)  - It provides the APIs which are integrated with the Android application for providing state of the art machine learning capabilities.This project uses three AWS ML APIs.
 
 1. AWS Rekognition API - It is used for extracting the text from the image.
 
