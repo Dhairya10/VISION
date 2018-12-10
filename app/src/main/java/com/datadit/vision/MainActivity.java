@@ -13,6 +13,7 @@ import android.media.MediaPlayer;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
+import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
@@ -95,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private MediaPlayer mediaPlayer;
     private TextView textViewHeading;
     private String voiceAssistant = "Kendra";
+    private boolean doubleBackToExitPressedOnce = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -295,7 +297,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return null;
     }
 
-
     // Translated text is passed onto AWS Polly
     public Void convertTextToSpeech(String text) {
 
@@ -407,6 +408,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onPause() {
         super.onPause();
         if (mediaPlayer.isPlaying() && mediaPlayer != null) {
+            mediaPlayer.stop();
             mediaPlayer.release();
         }
     }
@@ -498,5 +500,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         });
         dialog.show();
         Log.d(LOG_TAG, "Voice :" + voiceAssistant);
+    }
+
+    public void onBackPressed () {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        }
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Press back again to exit", Toast.LENGTH_SHORT).show();
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
     }
 }
