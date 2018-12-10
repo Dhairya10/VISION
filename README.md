@@ -38,3 +38,5 @@ VIDEO LINK -
 
 https://www.youtube.com/watch?v=0qzGkjEl7FY&frags=pl%2Cwn
 
+
+|| Alpha | This app enables the user to comprehend and translate (if written in foreign language) the text written within an image | Apache License 2.0 | India | https://github.com/Dhairya10 |
