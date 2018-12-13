@@ -25,6 +25,9 @@ Amazon Web Services(AWS)  - It provides the APIs which are integrated with the A
 3. AWS Polly API - It is used for providing Text to Speech capabilities.
 
 Android - All the AWS Machine Learning APIs are integrated into an Android application which makes it portable,easy to use and user friendly.
+
+![untitled presentation](https://user-images.githubusercontent.com/36099337/49934982-d2178700-fef5-11e8-985f-8727583faf6b.png)
+
                        
 TECHNICAL APPROACH
 
