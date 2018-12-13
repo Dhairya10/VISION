@@ -26,9 +26,8 @@ Amazon Web Services(AWS)  - It provides the APIs which are integrated with the A
 
 Android - All the AWS Machine Learning APIs are integrated into an Android application which makes it portable,easy to use and user friendly.
 
-![untitled presentation](https://user-images.githubusercontent.com/36099337/49934982-d2178700-fef5-11e8-985f-8727583faf6b.png)
+![untitled presentation](https://user-images.githubusercontent.com/36099337/49935433-05a6e100-fef7-11e8-87a7-9fddd0e064b1.png)
 
-                       
 TECHNICAL APPROACH
 
 This app allows the user to click an image or choose an already existing image from the file picker.
