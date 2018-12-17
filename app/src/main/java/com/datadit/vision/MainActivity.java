@@ -246,6 +246,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             for (TextDetection text : textDetections) {
                 rekognitionMap.put(text.getDetectedText(), text.getConfidence().toString());
+
             }
 
         } catch (Exception e) {
@@ -261,12 +262,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AWSCredentials awsCredentials = new AWSCredentials() {
             @Override
             public String getAWSAccessKeyId() {
-                return "AKIAJ7GJSL47NORWMYZQ";
+                return "AKIAIAAJDIQQ3K2WG4QA";
             }
 
             @Override
             public String getAWSSecretKey() {
-                return "gz0aE7RvBIFX0glvIpjLObxIqMLxB6IXZpqOjsiM";
+                return "RXZxe7xD7OvQD6AztncfQJmGSdFO0T5+WkUQcIl6";
             }
         };
 
