@@ -39,10 +39,3 @@ IMPORTANT NOTES -
 * The Amazon Translate API can translate the text for only 6 languages currently — Arabic (ar) , Chinese (zh) ,French (fr) ,     German (de) , Portuguese (pt) and Spanish (es) .
 * AWS Rekognition can detect upto 50 words at a time from an image, and currently it can't detect handwritten text.
 
-
-VIDEO LINK - 
-
-https://www.youtube.com/watch?v=0qzGkjEl7FY&frags=pl%2Cwn
-
-
-| https://github.com/Dhairya10/VISION/blob/master/vision.apk | Alpha | This app enables the user to comprehend and translate (if written in foreign language) the text written within an image | Apache License 2.0 | India | https://github.com/Dhairya10 |
