@@ -262,7 +262,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AWSCredentials awsCredentials = new AWSCredentials() {
             @Override
             public String getAWSAccessKeyId() {
-                return "Enter your AWS Access Key ID here;
+                return "Enter your AWS Access Key ID here";
             }
 
             @Override
